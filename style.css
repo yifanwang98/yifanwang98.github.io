@@ -7,7 +7,7 @@ body {
 	background-position:top center; 
 	background-repeat:no-repeat; 
 	background-size:cover;
-	opacity: 0.97;
+	opacity: 1.0;
 }
 .overlay{
 	display:block; 
@@ -20,8 +20,36 @@ body {
 	z-index:-1;
 }
 .bgtext {
-	color: black;
-	opacity: 1.0;
-	text-indent: 100px;
+	background-color: black;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	/*border-color: white;*/
 	margin-top: 50px;
+	opacity: 0.60;
 }
+.bgtitle {
+	text-indent: 100px;
+	color: white;
+	opacity: 1.0;
+	font-family: Times New Roman;
+	font-weight: bold;
+	font-size: 40px;
+}
+a:link, a:visited { 
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+    opacity: 1.0;
+}
+a:hover{
+	color: grey;
+}
+a:visited:active{
+	color: blue;
+}
+
+
+
+
+
+
