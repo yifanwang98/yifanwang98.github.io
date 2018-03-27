@@ -15,9 +15,7 @@ body {
 	top:0; 
 	left:0; 
 	width:100%; 
-	height:100%; 
-	content:""; 
-	z-index:-1;
+	height:800px; 
 }
 .bgtext {
 	background-color: black;
@@ -28,15 +26,16 @@ body {
 	opacity: 0.60;
 }
 .bgtitle {
-	text-indent: 100px;
-	color: white;
+	color: orange;
 	opacity: 1.0;
 	font-family: Times New Roman;
 	font-weight: bold;
 	font-size: 40px;
+	margin-top: 50px;
+	margin-left: 7%;
 }
 a:link, a:visited { 
-    color: white;
+    color: orange;
     text-decoration: none;
     cursor: auto;
     opacity: 1.0;
@@ -48,8 +47,80 @@ a:visited:active{
 	color: blue;
 }
 
+.educationRow {
+	width: 100%; 
+	position: absolute; 
+	top: 800px;
+	left:0; 
+	text-align: left; 
+	word-wrap: break-word;
+	background-color: rgba(255, 255, 255, 1.0);
+	padding-bottom: 20px;
+}
 
+.edu-title {
+	font-family:Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	left: 0;
+}
 
+.edu-school {
+	font-family: Helvetica, "Times New Roman", "Avenir Next";
+	font-size: 1.3em;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 52%;
+}
 
+.edu-info {
+	color: dimgray;
+	font-family: "Avenir Next", Helvetica, "Times New Roman";
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: normal;
+	margin-left: 52%;
+	line-height: 0.2;
+}
 
+.contactRow{
+	position: absolute;
+	background-color: rgba(40,40,40,1.00);
+	width: 100%;
+	left: 0;
+	margin-top: 1000px;
+	margin-left: 0%;
+	padding: 5px;
+}
 
+.contact-title {
+	color: white;
+	left:0; 
+	font-family: Helvetica, "Times New Roman", "Avenir Next";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contact-email{
+	color: whitesmoke;
+	left:0; 
+	font-family: Helvetica, "Times New Roman", "Avenir Next";
+	font-size: 1em;
+	font-style: normal;
+	text-align: center;
+}
+
+.copyright {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	font-family: "Avenir Next", Helvetica, "Times New Roman";
+	font-size: 0.9em;
+	color: lightgray;
+	text-align: center;
+	margin-top: 1150px;
+}
