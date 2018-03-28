@@ -165,8 +165,11 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
+	.educationRow{
+		padding-bottom: 70px;
+	}
 	.contactRow {
-		margin-top: 1230px;
+		margin-top: 1220px;
 	}
 	.copyright {
 		margin-top: 1350px;
@@ -177,10 +180,10 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
 	.contactRow {
-		margin-top: 1250px;
+		margin-top: 1200px;
 	}
 	.copyright {
-		margin-top: 1380px;
+		margin-top: 1350px;
 	}
 }
 
