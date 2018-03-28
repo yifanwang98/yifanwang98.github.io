@@ -160,10 +160,10 @@ a:visited:active{
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 	.contactRow {
-		margin-top: 1230px;
+		margin-top: 1250px;
 	}
 	.copyright {
-		margin-top: 1360px;
+		margin-top: 1380px;
 	}
 }
 
@@ -177,10 +177,10 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
 	.contactRow {
-		margin-top: 1230px;
+		margin-top: 1250px;
 	}
 	.copyright {
-		margin-top: 1360px;
+		margin-top: 1380px;
 	}
 }
 
