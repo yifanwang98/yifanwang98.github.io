@@ -165,7 +165,12 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-
+	.contactRow {
+		margin-top: 1230px;
+	}
+	.copyright {
+		margin-top: 1350px;
+	}
 }
 
 /* Smartphones (portrait) ----------- */
