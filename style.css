@@ -155,72 +155,86 @@ a:visited:active{
 	padding: 0;
 }
 
-/* For non-retina based devices that have a smaller screen */
-@media only screen and (min-width: 320px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 	.contactRow {
 		margin-top: 1230px;
 	}
-	
 	.copyright {
 		margin-top: 1360px;
 	}
 }
 
-/* Retina enabled devices with smaller screen */
-@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), 
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 320px),  
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 320px),  
-only screen and ( min-resolution: 192dpi) and (min-width: 320px),  
-only screen and ( min-resolution: 2dppx) and (min-width: 320px) {
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
 
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
 	.contactRow {
 		margin-top: 1230px;
 	}
-	
 	.copyright {
 		margin-top: 1360px;
 	}
 }
 
-/*Non- retina based devices with medium screen size */
-@media only screen and (min-width: 768px) {
-	.contactRow {
-		margin-top: 1230px;
-	}
-	
-	.copyright {
-		margin-top: 1360px;
-	}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
 }
 
-/* Retina devices with medium screen size */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),  
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 768px),  
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 768px),  
-only screen and ( min-resolution: 192dpi) and (min-width: 768px),  
-only screen and ( min-resolution: 2dppx) and (min-width: 768px) {
-	.contactRow {
-		margin-top: 1230px;
-	}
-	
-	.copyright {
-		margin-top: 1360px;
-	}
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
 }
 
-
-/* Retina devices with large screen sizes */
-@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),  
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1200px),  
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 1200px),  
-only screen and ( min-resolution: 192dpi) and (min-width: 1200px),  
-only screen and ( min-resolution: 2dppx) and (min-width: 1200px) {
-
-	.contactRow {
-		margin-top: 1230px;
-	}
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
 	
-	.copyright {
-		margin-top: 1360px;
-	}
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
 }
