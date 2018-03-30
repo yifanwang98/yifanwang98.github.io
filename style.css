@@ -184,7 +184,7 @@ a:visited:active{
 }
 
 .skill-progress-java {
-	margin-top: -15.5em;
+	margin-top: -11.2em;
 }
 
 .skill-java {
@@ -219,11 +219,29 @@ a:visited:active{
 	margin-right: 30%;
 }
 
-.skill-progress-htmlCSS {
+.skill-branch-web {
+	padding-top: 2em;
+	color: #ff9e4d;
+	font-family: "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.45em;
+	font-weight: 450;
+}
+
+.skill-progress-html {
+	margin-top: -4.9em;
+}
+
+.skill-html {
+	height: 1.06em;
+	margin-right: 50%;
+}
+
+.skill-progress-CSS {
 	margin-top: 1.06em;
 }
 
-.skill-htmlCSS {
+.skill-CSS {
 	height: 1.06em;
 	margin-right: 50%;
 }
@@ -235,8 +253,17 @@ a:visited:active{
 	height: 1.06em;
 	top: 0;
 }
+
 .skill-style {
 	background-color: #ff9e4d;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-family: "Courier", "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.skill-style-web {
+	background-color: #8C7CF2;
 	text-align: center;
 	color: white;
 	font-weight: normal;
