@@ -56,26 +56,18 @@ a:visited:active{
 	text-align: left; 
 	word-wrap: break-word;
 	background-color: rgba(255, 255, 255, 1.0);
-	padding-bottom: 60px;
+	padding-bottom: 30px;
+	min-height: 280px;
 }
 
 .eduItem {
-	padding: 1em 2em 1em 2em;
+	padding: 0.3em 2em 1em 2em;
 	border-left: 2px solid #0E93DB;
-	margin-left: 42%;
-		
-}
-.eduItem::before{
-	content: "2016.8 ~ 2020.5";
-	position: absolute;
-	font-family: "Avenir Next", "Helvetica";
-	display: block;
-	font-weight: bold;
-	margin-left: -12em;
-	padding-right: 1.65em;
+	margin-left: 40%;
+	margin-top: -2em;
 }
 
-.eduItem::after{
+.eduItem::before{
 	width: 11px;
 	height: 11px;
 	display: block;
@@ -85,7 +77,19 @@ a:visited:active{
 	border: 2px solid black;
 	background: white;
 	margin-left: -40.5px;
-	top: 7.5em;
+	top: 7em;
+}
+
+.edu-time {
+	display: block;
+	text-align: right;
+	margin-right: 62%;
+	font-family: "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 550;
+	margin-top: 40px;
+	margin-bottom: 0;
 }
 
 .edu-title {
@@ -102,6 +106,7 @@ a:visited:active{
 	line-height: 1.1;
 	font-style: normal;
 	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .edu-info {
