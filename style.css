@@ -141,108 +141,35 @@ a:visited:active{
 .contact-email {
 	color: whitesmoke;
 	left: 0; 
+	width: 100%;
 	font-family: Helvetica, "Times New Roman", "Avenir Next";
 	font-size: 1em;
 	font-style: normal;
 	text-align: center;
 	letter-spacing: 0.8px;
+	margin-bottom: 0;
+}
+
+.social-media {
+	left: 0;
+	width: 100%;
+	letter-spacing: 5px;
+	text-align: center;
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
 }
 
 .copyright {
 	position: absolute;
 	left: 0;
 	width: 100%;
-	font-family: "Avenir Next", Helvetica, "Times New Roman";
-	font-size: 0.9em;
+	font-family: Helvetica, "Avenir Next", "Times New Roman";
+	font-size: 0.79em;
 	color: lightgray;
 	text-align: center;
-	margin-top: 1330px;
+	margin-top: 1418px;
+	margin-bottom: 0;
 	padding: 0;
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-	
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-	.educationRow{
-		padding-bottom: 70px;
-	}
-	.contactRow {
-		margin-top: 1220px;
-	}
-	.copyright {
-		margin-top: 1350px;
-	}
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-	.contactRow {
-		margin-top: 1200px;
-	}
-	.copyright {
-		margin-top: 1350px;
-	}
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-	
-}
-
-/* iPad 3 (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (-webkit-min-device-pixel-ratio : 2),
-only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (min-resolution: 192dpi) { 
-
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-	
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-	
-}
-
-/* Retina displays ----------- */
-@media  only screen 
-and (-webkit-min-device-pixel-ratio : 2), 
-only screen 
-and (min-resolution: 192dpi) {
-
+	letter-spacing: 1px;
 }
