@@ -141,6 +141,7 @@ a:visited:active{
 	color: snow;
 }
 
+/* Skill */
 .skillRow {
 	position: absolute;
 	background: linear-gradient(to bottom, #243b55, #141e30);
@@ -153,7 +154,7 @@ a:visited:active{
 }
 
 .skill-title {
-	font-family:Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	font-size: 2em;
 	font-style: normal;
 	font-weight: bold;
@@ -161,6 +162,89 @@ a:visited:active{
 	color: snow;
 }
 
+.skill-branch {
+	color: #ff9e4d;
+	font-family: "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.45em;
+	font-weight: 450;
+}
+
+.skill-container {
+	color: white;
+	font-family: "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 420;
+	font-size: 1.05em;
+	line-height: 2.0;
+	text-align: right;
+	margin-right: 70%;
+	top: 0;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+.skill-progress-java {
+	margin-top: -15.5em;
+}
+
+.skill-java {
+	height: 1.06em;
+	margin-right: 15%;
+}
+
+.skill-progress-javafx {
+	margin-top: 1.06em;
+}
+
+.skill-javafx {
+	height: 1.06em;
+	margin-right: 15%;
+}
+
+.skill-progress-c {
+	margin-top: 1.06em;
+}
+
+.skill-c {
+	height: 1.06em;
+	margin-right: 25%;
+}
+
+.skill-progress-sqlmips {
+	margin-top: 1.06em;
+}
+
+.skill-sql {
+	height: 1.06em;
+	margin-right: 30%;
+}
+
+.skill-progress-htmlCSS {
+	margin-top: 1.06em;
+}
+
+.skill-htmlCSS {
+	height: 1.06em;
+	margin-right: 50%;
+}
+
+.skill-progress {
+	margin-left: 33%;
+	margin-right: 25%;
+	background-color: rgba(0, 0, 0, 0.25);
+	height: 1.06em;
+	top: 0;
+}
+.skill-style {
+	background-color: #ff9e4d;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-family: "Courier", "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+
+/* Contact */
 .contactRow {
 	position: absolute;
 	background-color: rgba(40,40,40,1.00);
