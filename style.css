@@ -22,7 +22,7 @@ body {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
 	/*border-color: white;*/
-	margin-top: 50px;
+	margin-top: 80px;
 	opacity: 0.60;
 }
 .bgtitle {
@@ -30,9 +30,10 @@ body {
 	opacity: 1.0;
 	font-family: Times New Roman;
 	font-weight: bold;
-	font-size: 40px;
-	margin-top: 50px;
-	margin-left: 7%;
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 a:link, a:visited { 
@@ -316,9 +317,9 @@ a:visited:active{
 	position: absolute;
 	/*background-color: rgba(43,104, 178, 1.00);*/
 	/*background: linear-gradient(to bottom right, #71b280, #134e5e);*/
-	background: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+	background: linear-gradient(to left top, #136a8a, #267871);
 	width: 100%;
-	height: 500px;
+	height: 700px;
 	left: 0;
 	margin-top: 2150px;
 	margin-bottom: 0;
@@ -326,12 +327,79 @@ a:visited:active{
 }
 
 .project-title {
-	font-family:Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	font-size: 2em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
 	color: snow;
+	margin-bottom: 100px;
+}
+
+.project-container-metro {
+	padding: 0em 2em 1em 2em;
+	border-left: 4px solid #00E5FF;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: -2em;
+}
+
+.project-head-metro {
+	padding-top: 1.4em;
+	text-align: left;
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1.5em;
+	font-weight: 600;
+	color: white;
+}
+
+.project-desc-metro {
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1em;
+	line-height: 1.4;
+	color: whitesmoke;
+	text-align: left;
+	padding-left: 0px;
+}
+
+.project-icon-metro {
+	text-align: left;
+	font-size: 2em;
+	padding-bottom: 0.45em;
+	cursor: pointer;
+}
+
+.project-container-scrimish {
+	padding: 0em 2em 1em 2em;
+	border-right: 4px solid #FFAB00;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 70px;
+}
+
+.project-head-scrimish {
+	padding-top: 1.4em;
+	text-align: right;
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1.5em;
+	font-weight: 600;
+	color: white;
+}
+
+.project-desc-scrimish {
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1em;
+	line-height: 1.4;
+	color: whitesmoke;
+	text-align: right;
+	padding-left: 0px;
+}
+
+.project-icon-scrimish {
+	text-align: right;
+	font-size: 2em;
+	padding-bottom: 0.45em;
+	cursor: pointer;
 }
 
 /* Contact */
@@ -342,7 +410,7 @@ a:visited:active{
 	height: 220px;
 	left: 0;
 	top: 0;
-	margin-top: 2650px;
+	margin-top: 2850px;
 	margin-bottom: 0;
 	margin-left: 0%;
 }
@@ -387,7 +455,7 @@ a:visited:active{
 	font-size: 0.79em;
 	color: lightgray;
 	text-align: center;
-	margin-top: 2870px;
+	margin-top: 3070px;
 	margin-bottom: 0;
 	top: 0;
 	padding: 0;
