@@ -201,8 +201,8 @@ a:visited:active{
 }
 
 .skillWeb_Color {
-	border-color: #8C7CF2;
-	color: #8C7CF2;
+	border-color: #ffd5b8;
+	color: #ffd5b8;
 }
 
 .skillFrame_Color {
@@ -211,8 +211,9 @@ a:visited:active{
 }
 
 .skillLang_Color {
-	border-color: #D1C1B2;
-	color: #D1C1B2;
+	border-color: #31cc82;
+	color: #31cc82
+	;
 }
 
 /* Project */
@@ -236,7 +237,7 @@ a:visited:active{
 	font-weight: bold;
 	text-align: center;
 	color: snow;
-	margin-bottom: 100px;
+	/*margin-bottom: 100px;*/
 }
 
 .project-container-metro {
@@ -305,6 +306,47 @@ a:visited:active{
 	cursor: pointer;
 }
 
+.projectName {
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1.5em;
+	font-weight: 600;
+	color: white;
+}
+
+.projectDescr {
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1em;
+	line-height: 1.4;
+	color: whitesmoke;
+}
+
+.leftBorder {
+	border-right: 4px solid #00E5FF;
+}
+
+.leftContentMargin {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 20px;
+	margin-right: 8%;
+}
+
+.leftIcon {
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.rightBorder {
+	border-left: 4px solid #00E5FF;
+}
+
+.rightContentMargin {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 20px;
+	margin-left: 8%;
+}
+
 /* Contact */
 .contactRow {
 	position: absolute;
@@ -313,7 +355,7 @@ a:visited:active{
 	height: 220px;
 	left: 0;
 	top: 0;
-	margin-top: 3050px;
+	margin-top: 750px;
 	margin-bottom: 0;
 	margin-left: 0%;
 }
@@ -351,14 +393,14 @@ a:visited:active{
 }
 
 .copyright {
-	position: absolute;
+	position: relative;
 	left: 0;
 	width: 100%;
 	font-family: Helvetica, "Avenir Next", "Times New Roman";
 	font-size: 0.79em;
 	color: lightgray;
 	text-align: center;
-	margin-top: 3270px;
+	margin-top: 700px;
 	margin-bottom: 0;
 	top: 0;
 	padding: 0;
