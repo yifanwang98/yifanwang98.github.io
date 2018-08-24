@@ -2,6 +2,7 @@
 
 body {
 	background-color: rgb(0, 0, 0);
+	margin: 0;
 }
 .background {
 	background-position:top center; 
@@ -9,127 +10,88 @@ body {
 	background-size:cover;
 	opacity: 1.0;
 }
+
 .overlay{
-	display:block; 
-	position:absolute; 
-	top:0; 
-	left:0; 
+	position:relative; 
 	width:100%; 
 	height: 900px;
 }
-.bgtext {
-	background-color: black;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-	/*border-color: white;*/
-	margin-top: 80px;
-	opacity: 0.60;
-}
+
 .bgtitle {
-	color: orange;
-	opacity: 1.0;
+	color: #2ccfdd;
 	font-family: Times New Roman;
 	font-weight: bold;
 	font-size: 3.5em;
 	text-align: center;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 a:link, a:visited { 
-    color: orange;
+    color: #2ccfdd;
     text-decoration: none;
     cursor: auto;
     opacity: 1.0;
 }
+
 a:hover{
-	color: grey;
-}
-a:visited:active{
-	color: blue;
+	color: #23a5b0;
 }
 
-.educationRow {
-	width: 100%; 
-	position: absolute; 
-	top: 900px;
-	left:0; 
-	text-align: left; 
-	word-wrap: break-word;
+/* Education */
+.educationSection {
+	width: 100%;
 	background: linear-gradient(to bottom, #ffffff, #ece9e6);
-	min-height: 350px;
-	margin-bottom: 0;
+	padding-bottom: 3em;
 }
 
-.eduItem {
-	padding: 0.3em 2em 1em 2em;
-	border-left: 2px solid #0E93DB;
-	margin-left: 40%;
-	margin-top: -2em;
-}
-
-.eduItem::before{
-	width: 11px;
-	height: 11px;
-	display: block;
-	position: absolute;
-	border-radius: 10px;
-	content: '';
-	border: 2px solid black;
-	background: white;
-	margin-left: -40.5px;
-	top: 7.92em;
-}
-
-.edu-time {
-	display: block;
-	text-align: right;
-	margin-right: 62%;
-	font-family: "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 1em;
-	font-style: normal;
-	font-weight: 500;
-	margin-top: 55px;
-	margin-bottom: 0;
-}
-
-.edu-title {
+.eduTitle {
 	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	font-size: 2em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
+	padding: 1em;
 }
 
-.edu-school {
-	font-family: Helvetica, "Times New Roman", "Avenir Next";
-	font-size: 1.3em;
+.eduBorder {
+	border-left: 4px solid #265e96;
+	padding: 0.2em 1em;
+}
+
+.eduTime {
+	font-family: "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 500;
+	text-align: right;
+	padding-right: 1em;
+}
+
+.eduSchool {
+	font-family: Avenir, Palatino, "Times New Roman", "Avenir Next";
+	font-size: 1.4em;
 	line-height: 1.1;
 	font-style: normal;
-	font-weight: bold;
-	margin-bottom: 0;
+	font-weight: 500;
 }
 
-.edu-info {
-	color: dimgray;
+.eduInfo {
 	font-family: "Avenir Next", Helvetica, "Times New Roman";
 	font-size: 1em;
 	font-style: oblique;
 	font-weight: normal;
 	line-height: 1.3;
 	word-wrap: break-word;
+	color: #4c4d4d;
 }
 
 /* Skill */
 .skillRow {
-	position: absolute;
 	background: linear-gradient(to bottom, #243b55, #141e30);
 	width: 100%;
-	height: 1100px;
-	margin-top: 1250px;
-	margin-left: 0%;
-	top: 0;
-	left: 0;
+	padding-bottom: 4em;
 }
 
 .skill-title {
@@ -139,6 +101,7 @@ a:visited:active{
 	font-weight: bold;
 	text-align: center;
 	color: snow;
+	padding: 0.5em;
 }
 
 .skill-branch {
@@ -212,22 +175,16 @@ a:visited:active{
 
 .skillLang_Color {
 	border-color: #31cc82;
-	color: #31cc82
-	;
+	color: #31cc82;
 }
 
 /* Project */
 .projectRow {
-	position: absolute;
 	/*background-color: rgba(43,104, 178, 1.00);*/
 	/*background: linear-gradient(to bottom right, #71b280, #134e5e);*/
 	background: linear-gradient(to left top, #136a8a, #267871);
 	width: 100%;
-	height: 750px;
-	left: 0;
-	margin-top: 2300px;
-	margin-bottom: 0;
-	top: 0;
+	padding-bottom: 4em;
 }
 
 .project-title {
@@ -237,79 +194,13 @@ a:visited:active{
 	font-weight: bold;
 	text-align: center;
 	color: snow;
-	/*margin-bottom: 100px;*/
-}
-
-.project-container-metro {
-	padding: 0em 2em 1em 2em;
-	border-left: 4px solid #00E5FF;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: -2em;
-}
-
-.project-head-metro {
-	padding-top: 1.4em;
-	text-align: left;
-	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 1.5em;
-	font-weight: 600;
-	color: white;
-}
-
-.project-desc-metro {
-	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 1em;
-	line-height: 1.4;
-	color: whitesmoke;
-	text-align: left;
-	padding-left: 0px;
-}
-
-.project-icon-metro {
-	text-align: left;
-	font-size: 2em;
-	padding-bottom: 0.45em;
-	cursor: pointer;
-}
-
-.project-container-scrimish {
-	padding: 0em 2em 1em 2em;
-	border-right: 4px solid #FFAB00;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 70px;
-}
-
-.project-head-scrimish {
-	padding-top: 1.4em;
-	text-align: right;
-	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 1.5em;
-	font-weight: 600;
-	color: white;
-}
-
-.project-desc-scrimish {
-	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 1em;
-	line-height: 1.4;
-	color: whitesmoke;
-	text-align: right;
-	padding-left: 0px;
-}
-
-.project-icon-scrimish {
-	text-align: right;
-	font-size: 2em;
-	padding-bottom: 0.45em;
-	cursor: pointer;
+	padding: 0.5em;
 }
 
 .projectName {
-	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-family: Avenir, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	font-size: 1.5em;
-	font-weight: 600;
+	font-weight: 500;
 	color: white;
 }
 
@@ -349,60 +240,42 @@ a:visited:active{
 
 /* Contact */
 .contactRow {
-	position: absolute;
-	background-color: rgba(40,40,40,1.00);
+	background-color: rgba(40, 40, 40, 1.00);
 	width: 100%;
-	height: 220px;
-	left: 0;
-	top: 0;
-	margin-top: 750px;
-	margin-bottom: 0;
-	margin-left: 0%;
+	padding-bottom: 0.5em;
 }
 
 .contact-title {
 	color: white;
-	left:0; 
 	font-family: Helvetica, "Times New Roman", "Avenir Next";
 	font-size: 2em;
-	font-style: normal;
 	font-weight: bold;
 	text-align: center;
+	padding: 0.5em;
 }
 
 .contact-email {
 	color: whitesmoke;
-	left: 0; 
-	width: 100%;
 	font-family: Helvetica, "Times New Roman", "Avenir Next";
 	font-size: 1em;
 	font-style: normal;
 	text-align: center;
 	letter-spacing: 0.8px;
-	margin-bottom: 0;
+	margin-top: -0.5em;
 }
 
 .social-media {
-	left: 0;
 	width: 100%;
 	letter-spacing: 5px;
 	text-align: center;
 	font-size: 2em;
-	padding: 0;
-	margin: 0;
 }
 
 .copyright {
-	position: relative;
-	left: 0;
 	width: 100%;
 	font-family: Helvetica, "Avenir Next", "Times New Roman";
 	font-size: 0.79em;
 	color: lightgray;
 	text-align: center;
-	margin-top: 700px;
-	margin-bottom: 0;
-	top: 0;
-	padding: 0;
 	letter-spacing: 1px;
 }
