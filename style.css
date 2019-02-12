@@ -38,6 +38,32 @@ a:link, a:visited {
 a:hover{
 	color: #23a5b0;
 }
+/* Bio */
+.bioSection {
+	width: 100%;
+	padding-bottom: 3em;
+	background: #292727;  /* fallback for old browsers */
+}
+
+.bioTitle {
+	font-family: Helvetica, "Times New Roman", "Avenir Next", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em;
+	color: #e7e7e7;
+}
+
+.bioContent {
+	font-family: "Avenir Next", Helvetica, "Times New Roman", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1.05em;
+	padding: 1em;
+	color: #ffffff;
+	margin: 0% 20%;
+	line-height: 1.6;
+	text-align: justify;
+}
 
 /* Education */
 .educationSection {
@@ -164,13 +190,13 @@ a:hover{
 }
 
 .skillWeb_Color {
-	border-color: #ffd5b8;
-	color: #ffd5b8;
+	border-color: #6ECCEA;
+	color: #6ECCEA;
 }
 
 .skillFrame_Color {
-	border-color: #6ECCEA;
-	color: #6ECCEA;
+	border-color: #18dcc4;
+	color: #18dcc4;
 }
 
 .skillLang_Color {
@@ -219,7 +245,8 @@ a:hover{
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	margin-left: 20px;
-	margin-right: 8%;
+	margin-right: 15%;
+	text-align: justify;
 }
 
 .leftIcon {
@@ -235,7 +262,7 @@ a:hover{
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	margin-right: 20px;
-	margin-left: 8%;
+	margin-left: 20%;
 }
 
 /* Contact */
