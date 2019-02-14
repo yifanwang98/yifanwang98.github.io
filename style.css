@@ -17,10 +17,17 @@ body {
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   text-align: center;
-  width: 3em;
-  height: 3em;
+  width: 3.5em;
+  height: 3.5em;
   border-radius: 3em; /* Rounded corners */
   font-size: 0.85em; /* Increase font size */
+}
+
+#myBtn:visited {
+  background-color: rgba(0, 0, 0, 0.5); /* Set a background color */
+  color: white; /* Text color */
+  border: 1px solid #d2d2d2;
+  font-weight: normal;
 }
 
 #myBtn:hover {
@@ -55,7 +62,7 @@ body {
 }
 
 .navigationSection {
-	padding-top: 500px;
+	padding-top: 400px;
 	text-align: center;
 	line-height: 4;
 	margin: 0% 10%;
