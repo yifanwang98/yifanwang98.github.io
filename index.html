@@ -21,24 +21,33 @@
 
 <!-- Body -->
 <body>
+	<button onclick="topFunction()" id="myBtn">Top</button>
 	<!-- Name -->
 	<div class="background overlay", style="background-image:url('images/Background.JPG');"> 
 		<div style="height: 60px;"></div>
 		<div class="bgtitle">
 			<a>Yifan Wang</a>
 		</div>
+
+		<div class="navigationSection">
+			<a href="#bio" class="navigationItem">Short Bio</a>&nbsp;&nbsp;
+			<a href="#edu" class="navigationItem">Education</a>&nbsp;&nbsp;
+			<a href="#ski" class="navigationItem">Skills</a>&nbsp;&nbsp;
+			<a href="#pro" class="navigationItem">Projects</a>&nbsp;&nbsp;
+			<a href="#con" class="navigationItem">Contact</a>
+		</div>
 	</div>
 	<!-- Bio Section -->
-	<div class="bioSection">
+	<div class="bioSection" id="bio">
 		<div class="bioTitle">
 			Short Bio
 		</div>
 		<div class="bioContent">
-			Yifan Wang is a senior Computer Science student at Stony Brook University. Yifan has a great interest in software development and data science, and has built several applications. Currently Yifan is working as a teaching assistant in the Department of Computer Science, where he assists a faculty member in conducting laboratory sections that supplements a lecture course and helps students develope their programming skills; and he is also working  as a part-time software developer in Department of Biomedical Informatics where he works on smartphone-based eye tracking technology.
+			Yifan Wang is a senior Computer Science student at Stony Brook University. Yifan has a great interest in software development and data science, and has built several applications. Currently Yifan is working as a teaching assistant in the Department of Computer Science, where he assists a faculty member in conducting laboratory sections that supplements a lecture course and helps students develope their programming skills; and he is also working  as a part-time software developer in Department of Biomedical Informatics where he works on smartphone-based eye tracking technology. In his free time, he enjoys musicals, soccer, and drama.
 		</div>
 	</div>
 	<!-- Education Section -->
-	<div class="educationSection">
+	<div class="educationSection" id="edu">
 		<div class="eduTitle">Education</div>
 		<table style="width: 100%;">
 			<col width="36%">
@@ -65,7 +74,7 @@
 		</table>
 	</div>
 	<!-- Skill Section -->
-	<div class="skillRow">
+	<div class="skillRow" id="ski">
 		<div class="skill-title">
 			<p>
 				Professional Skills
@@ -124,7 +133,7 @@
 		</div>
 	</div><!-- Skill Section -->
 	<!-- Project Section -->
-	<div class="projectRow">
+	<div class="projectRow" id="pro">
 		<div class="project-title">
 			<p>Projects</p>
 		</div>
@@ -203,7 +212,7 @@
 		</table>
 	</div>
 	<!-- Contact Section -->
-	<div class="contactRow">
+	<div class="contactRow" id="con">
 		<div class="contact-title">
 			<p>
 				Contact Me
@@ -243,5 +252,24 @@
 			Copyright © 2019 - All Rights Reserved
 		</p>
 	</div>
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
 </body>
 </html>
