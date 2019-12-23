@@ -32,15 +32,15 @@ body {
 }
 */
 .background {
-	background-position:top center; 
-	background-repeat:no-repeat; 
+	background-position:top center;
+	background-repeat:no-repeat;
 	background-size:cover;
 	opacity: 1.0;
 }
 
 .overlay{
-	position:relative; 
-	width:100%; 
+	position:relative;
+	width:100%;
 	height: 900px;
 }
 
@@ -58,7 +58,7 @@ body {
 .navigationSection {
 	padding-top: 400px;
 	text-align: center;
-	line-height: 4;
+	line-height: 1;
 	margin: 0% 10%;
 }
 
@@ -69,13 +69,16 @@ body {
 	font-size: 1.2em;
 	text-align: center;
 	padding: 1em;
+	margin: 0.3em 0.4em;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 10px;
 	border: 0.9px solid #787878;
-	box-shadow: 2px 2px 1px 1px rgba(210, 210, 210, 0.85);
+	box-shadow: 1px 1px 1px 1px rgba(210, 210, 210, 0.5);
+	display: inline-block;
+	width: 5em;
 }
 
-a:link, a:visited { 
+a:link, a:visited {
     color: #2ccfdd;
     text-decoration: none;
     cursor: auto;
